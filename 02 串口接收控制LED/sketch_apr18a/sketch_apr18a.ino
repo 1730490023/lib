@@ -3,6 +3,12 @@
  */
 const int ledpin = 13;
 int blinkrate = 0;
+
+void text01()
+{
+  int i;
+}
+
 void setup() {
   Serial.print(9600);
   pinMode(ledpin,OUTPUT);
